@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e73a265d-6dd7-4bad-8f8c-cf58d37c69d9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ced28837-75f8-4195-9e55-262cb293254f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{da637115-dd70-46c7-8aa7-09c619e98357}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ABOUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DESDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LEARN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RESULT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WRONG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ERR1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ORRECT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DES.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ABOUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DES6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DESDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LEARN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TEST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TEST1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TEST2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RESULT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WRONG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ERR1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ORRECT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\DES.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\DES.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\des.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\p1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\p2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\m1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\m2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\m3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\s3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\z1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\z2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\g2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

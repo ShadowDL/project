@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DES - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LC\AppData\Local\Temp\RSP5538.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DES.pdb" /debug /machine:I386 /out:"Debug/DES.exe" /pdbtype:sept 
+.\Debug\ABOUT.obj
+.\Debug\DES.obj
+.\Debug\DES1.obj
+.\Debug\DES2.obj
+.\Debug\DES3.obj
+.\Debug\DES4.obj
+.\Debug\DES5.obj
+.\Debug\DES6.obj
+.\Debug\DESDlg.obj
+.\Debug\GAME.obj
+.\Debug\GAME1.obj
+.\Debug\GAME2.obj
+.\Debug\GAME3.obj
+.\Debug\GAME4.obj
+.\Debug\LEARN.obj
+.\Debug\StdAfx.obj
+.\Debug\TEST.obj
+.\Debug\TEST1.obj
+.\Debug\TEST2.obj
+.\Debug\DES.res
+]
+Creating command line "link.exe @C:\Users\LC\AppData\Local\Temp\RSP5538.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4076: invalid incremental status file "Debug/DES.ilk"; linking nonincrementally
+StdAfx.obj : warning LNK4044: unrecognized option "alternatename:??$SerializeElements@V?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@@YGXAAVCArchive@@PAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@H@Z=?SerializeElements@@YGXAAVCArchive@@PAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@H@Z"; ignored
+StdAfx.obj : warning LNK4044: unrecognized option "alternatename:??$HashKey@PBD@@YGIPBD@Z=?HashKey@@YGIPBD@Z"; ignored
+nafxcwd.lib(wincore.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (C0300040)
+LINK : fatal error LNK1104: cannot open file "atlsd.lib"
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+DES.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

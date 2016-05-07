@@ -1,0 +1,653 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DES.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DES.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 DES"
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_DES_DIALOG DIALOGEX 0, 0, 506, 339
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DES学习软件"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    CTEXT           "DES密码学习软件V1.0",IDC_STATIC,378,62,97,23,SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    PUSHBUTTON      "跟我学习",IDC_BUTTON4,66,213,69,26,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "闯关达人",IDC_BUTTON5,204,213,68,26,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "退出",IDC_BUTTON7,410,291,54,24,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "关于我们",IDC_BUTTON8,330,291,50,24,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "尝试DES",IDC_BUTTON6,338,213,70,26,0,WS_EX_TRANSPARENT
+    CONTROL         185,IDC_STATIC,"Static",SS_BITMAP,0,0,506,350
+END
+
+IDD_LEARN DIALOGEX 0, 0, 324, 295
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "知识库"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "DES原理",IDC_BUTTON1,60,90,59,24,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "DES流程",IDC_BUTTON2,180,90,59,24,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "初始置换",IDC_BUTTON3,60,143,59,25,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "密钥置换",IDC_BUTTON4,180,143,59,25,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "S盒置换",IDC_BUTTON5,60,198,59,23,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "P盒置换",IDC_BUTTON6,180,198,59,23,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "返回",IDC_BUTTON8,264,269,50,11,0,WS_EX_TRANSPARENT
+    CTEXT           "知识库",IDC_STATIC,122,33,58,13,SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CONTROL         189,IDC_STATIC,"Static",SS_BITMAP,0,0,400,300
+END
+
+IDD_GAME DIALOGEX 0, 0, 350, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GAME"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "第一关",IDC_BUTTON1,90,83,59,29,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "第二关",IDC_BUTTON2,211,83,59,29,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "第三关",IDC_BUTTON3,90,139,59,29,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "第四关",IDC_BUTTON4,211,139,59,29,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "返回",IDC_BUTTON5,263,247,50,14,0,WS_EX_TRANSPARENT
+    CTEXT           "Games",IDC_STATIC,162,36,49,15,SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CONTROL         189,IDC_STATIC,"Static",SS_BITMAP,1,0,400,300
+END
+
+IDD_TEST DIALOGEX 0, 0, 301, 284
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "实现"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "我要加密",IDC_BUTTON1,58,119,61,24,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "我要解密",IDC_BUTTON2,180,119,61,24,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "返回",IDC_BUTTON3,229,258,50,12,0,WS_EX_TRANSPARENT
+    CTEXT           "DES实现",IDC_STATIC,127,43,41,19,SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CONTROL         189,IDC_STATIC,"Static",SS_BITMAP,0,0,400,300
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 185, 96
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "about"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,121,77,50,14
+    CTEXT           "安徽工业大学ISA小组：",IDC_STATIC,10,26,112,9
+    LTEXT           "刘超、鱼培江、李章正",IDC_STATIC,70,47,81,8
+END
+
+IDD_DES1 DIALOGEX 0, 0, 393, 268
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DES原理"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,311,233,50,14,0,WS_EX_TRANSPARENT
+    LTEXT           "DES简介：",IDC_STATIC,19,40,39,8,0,WS_EX_TRANSPARENT
+    LTEXT           "     DES是一个分组加密算法，它以64位为分组对数据加密。64位一组的明文从算法的一端输入，64位的密文从另一段输出。它是一个对称算法：加密和解密用的是同一个算法。",IDC_STATIC,34,50,328,23,0,WS_EX_TRANSPARENT
+    LTEXT           "DES原理：",IDC_STATIC,19,84,39,8,0,WS_EX_TRANSPARENT
+    LTEXT           "     DES算法的入口参数有三个：Key、Data、Mode。其中Key为8个字节共64位，是DES算法的工作密钥；Data为8个字节64位，是要被加密或被解密的数据；Mode为DES的工作方式，有两种：加密或解密。",IDC_STATIC,34,98,328,27,0,WS_EX_TRANSPARENT
+    LTEXT           "DES工作方式：",IDC_STATIC,19,132,55,8,0,WS_EX_TRANSPARENT
+    LTEXT           "         如Mode为加密，则用Key 去把数据Data进行加密， 生成Data的密码形式（64位）作为DES的输出结果；如Mode为解密，则用Key去把密码形式的数据Data解密，还原为Data的明码形式（64位）作为DES的输出结果。",IDC_STATIC,34,149,328,29,0,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_DES2 DIALOGEX 0, 0, 361, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DES流程"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,280,247,50,14,0,WS_EX_TRANSPARENT
+    LTEXT           "     首先就是把明文通过IP置换，得到一个乱序的明文序列，然后将明文序列分成L0和R0左右两部分。接着将R0直接赋值给L1，而L0通过f(R0,K1)进行模2加运算把值赋给R1。",IDC_STATIC,192,20,155,44,0,WS_EX_TRANSPARENT
+    LTEXT           "    接着重复上述步骤直到得到L15和R15。然后把R15赋给L16，L15通过和f(R15,K16)进行模2加运算得到R16。注意这里L16并不是在左侧了，而是和R16换了位置。",IDC_STATIC,192,82,155,44,0,WS_EX_TRANSPARENT
+    LTEXT           "    紧接着就是把R16L16通过 IP逆置换，得到密文。",IDC_STATIC,192,134,155,20,0,WS_EX_TRANSPARENT
+    LTEXT           "    解密过程和加密过程用的是同一个算法，唯一不同的就是加密时子密钥是用K1开始使用，而解密时需要从K16来使用。",IDC_STATIC,192,170,155,33,0,WS_EX_TRANSPARENT
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP,20,14,150,233,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_DES3 DIALOGEX 0, 0, 373, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "初始置换"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,300,259,50,14,0,WS_EX_TRANSPARENT
+    LTEXT           "    初始置换在第一轮运算之前执行，对输入分组实施如下表所示的变换。此表应从左向右、从上向下读。例如，初始置换把明文的第58位换到第1位的位置，把第50位换到第2位的位置，把第42位换到第3位的位置，等等。",IDC_STATIC,60,25,240,43,0,WS_EX_TRANSPARENT
+    LTEXT           "    在将这64位数据分为左右两部分，每部分分别为32位，将左32位留下，将右32位按照下表进行排列",IDC_STATIC,60,148,240,24,0,WS_EX_TRANSPARENT
+    CONTROL         191,IDC_STATIC,"Static",SS_BITMAP,60,73,240,59,WS_EX_TRANSPARENT
+    CONTROL         192,IDC_STATIC,"Static",SS_BITMAP,60,177,231,70,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_DES4 DIALOGEX 0, 0, 340, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "密钥置换"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,276,256,50,14,0,WS_EX_TRANSPARENT
+    LTEXT           "    一开始，由于不考虑每个字节的第8位，DES的密钥由64位减至56位，如下表所示。每个字节第8位可作为奇偶校验位以确保密钥不发生错误。",IDC_STATIC,36,7,272,21,0,WS_EX_TRANSPARENT
+    LTEXT           "    接着，56位密钥被分成两部分，每部分28位。然后，根据轮数，这两部分分别循环左移l位或2位。下表给出了每轮移动的位数。",IDC_STATIC,36,98,272,18,0,WS_EX_TRANSPARENT
+    LTEXT           "    在DES的每一轮中，从56位密钥选出以下表中的48位子密钥（Sub Key），这些子密钥Ki由下面的方式确定。",IDC_STATIC,36,171,272,25,0,WS_EX_TRANSPARENT
+    CONTROL         193,IDC_STATIC,"Static",SS_BITMAP,59,33,210,59,WS_EX_TRANSPARENT
+    CONTROL         194,IDC_STATIC,"Static",SS_BITMAP,40,123,248,42,WS_EX_TRANSPARENT
+    CONTROL         195,IDC_STATIC,"Static",SS_BITMAP,54,198,226,58,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_DES5 DIALOGEX 0, 0, 338, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "S盒置换"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,283,254,50,14,0,WS_EX_TRANSPARENT
+    LTEXT           "    当产生了48位密钥后就可以和右边32位明文进行异或运算了，得到48位的密文再经过下论的S盒跌带，其功能是把6bit数据变为4bit数据，每个S盒是一个4行、16列的表。盒中的每一项都是一个4位的数。S盒的6个位输入确定了其对应的输出在哪一行哪一列。下面列出部分的3个S盒。 ",IDC_STATIC,45,18,228,40,0,WS_EX_TRANSPARENT
+    CONTROL         196,IDC_STATIC,"Static",SS_BITMAP,55,65,229,56,WS_EX_TRANSPARENT
+    CONTROL         197,IDC_STATIC,"Static",SS_BITMAP,55,129,230,58,WS_EX_TRANSPARENT
+    CONTROL         198,IDC_STATIC,"Static",SS_BITMAP,55,195,229,58,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_DES6 DIALOGEX 0, 0, 358, 274
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "P盒置换"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,279,256,50,14,0,WS_EX_TRANSPARENT
+    LTEXT           "    S盒代替运算后的32位输出依照P盒进行置换。该置换把每输入位映射到输出位，任意一位不能被映射两次，也不能被略去，这个置换叫做直接置换。下表给出了每位移到的位置。",IDC_STATIC,48,37,247,39,0,WS_EX_TRANSPARENT
+    LTEXT           "    最后，将P盒置换的结果与最初的64位分组的左半部分异或，然后左、右半部分交换，接着开始另一轮。当进行到16论后，最终进行一次末置换，形成密文",IDC_STATIC,48,118,247,28,0,WS_EX_TRANSPARENT
+    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,48,79,235,30,WS_EX_TRANSPARENT
+    CONTROL         200,IDC_STATIC,"Static",SS_BITMAP,48,157,243,62,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_GAME1 DIALOGEX 0, 0, 340, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "第一关"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,269,253,52,11,0,WS_EX_TRANSPARENT
+    LTEXT           "    小红有一天在看密码书籍时突然发现一个有意思的密文(HELLO--->KHOOR)，在刚开始的时候她不懂其加密原理，最后耐心的她终于明白了其中的奥秘。最后她尝试着用这种方法给她男友写一段话。内容如下：",IDC_STATIC,37,24,270,34,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "提交",IDC_BUTTON2,132,253,50,11,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "下一关",IDC_BUTTON3,201,253,50,11,0,WS_EX_TRANSPARENT
+    LTEXT           "    IURP  VHH BRX RQH HBH, L  VKLW ORYH BRX.ZLWKLQ  BRX  L VKVH PBVHOI , ZLWKRXW  BRX  L ILQG  PBVHOI ZDQWLQJ  WR  EH  VKVH  DJDLQ.",IDC_STATIC,37,58,261,24,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,57,123,221,62,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    LTEXT           "你能帮她男朋友解密吗？",IDC_STATIC,38,82,210,9,0,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_GAME2 DIALOGEX 0, 0, 347, 241
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "第二关"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,288,215,50,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "提交",IDC_BUTTON2,160,215,50,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "下一关",IDC_BUTTON3,225,215,50,14,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT1,278,67,49,13,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,278,107,49,13,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT3,278,146,49,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    LTEXT           "第一处：",IDC_STATIC,236,69,38,12,0,WS_EX_TRANSPARENT
+    LTEXT           "第二处：",IDC_STATIC,236,110,33,8,0,WS_EX_TRANSPARENT
+    LTEXT           "第三处：",IDC_STATIC,236,148,33,8,0,WS_EX_TRANSPARENT
+    LTEXT           "    下面是小华在学习完DES后进行的IP置换结果，可是粗心的他不小心将墨水涂在了上面，你能试着帮他找出被涂掉的那三个数吗？",IDC_STATIC,48,11,228,31,0,WS_EX_TRANSPARENT
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,20,47,200,156,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_GAME3 DIALOGEX 0, 0, 321, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "第三关"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,257,244,50,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "提交",IDC_BUTTON2,132,244,50,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "下一关",IDC_BUTTON3,197,244,50,14,0,WS_EX_TRANSPARENT
+    CONTROL         "011100  001111  110100  001011  110101  011101  010110  101101",IDC_RADIO1,
+                    "Button",BS_AUTORADIOBUTTON,30,137,269,17,WS_EX_TRANSPARENT
+    CONTROL         "011100  001111  110100  001010  110101  011100  010110  101101",IDC_RADIO2,
+                    "Button",BS_AUTORADIOBUTTON,30,169,270,10,WS_EX_TRANSPARENT
+    CONTROL         "011100  001111  110100  001011  111101  011101  010110  101101",IDC_RADIO3,
+                    "Button",BS_AUTORADIOBUTTON,30,199,270,14,WS_EX_TRANSPARENT
+    LTEXT           "__0101__",IDC_STATIC,239,66,31,17,0,WS_EX_TRANSPARENT
+    LTEXT           "__1010__",IDC_STATIC,60,96,30,19,0,WS_EX_TRANSPARENT
+    LTEXT           "__1110__",IDC_STATIC,120,96,30,19,0,WS_EX_TRANSPARENT
+    LTEXT           "__1011__",IDC_STATIC,180,96,30,19,0,WS_EX_TRANSPARENT
+    LTEXT           "__0110__",IDC_STATIC,239,96,31,19,0,WS_EX_TRANSPARENT
+    LTEXT           "__1110__",IDC_STATIC,60,66,30,17,0,WS_EX_TRANSPARENT
+    LTEXT           "__0111__",IDC_STATIC,120,66,30,17,0,WS_EX_TRANSPARENT
+    LTEXT           "__1010__",IDC_STATIC,180,66,30,17,0,WS_EX_TRANSPARENT
+    LTEXT           "    经过初次的学习，想必你已经对DES有了初步的了解了吧，现在正式考验你的时候了，请根据S盒扩展的原理将下面几个32位扩展为48位：",IDC_STATIC,53,19,232,31,0,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_GAME4 DIALOGEX 0, 0, 291, 210
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "第四关"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,225,183,50,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "播放",IDC_BUTTON2,155,183,50,14,0,WS_EX_TRANSPARENT
+    LTEXT           "    通过前面的学习和游戏我想你大概基本掌握了DES加密算法，那么现在让我们伴随着优美的音乐在脑海中慢慢去回忆和消化DES密码算法吧",IDC_STATIC,61,61,188,59,0,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,291,210
+END
+
+IDD_TEST1 DIALOGEX 0, 0, 315, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "加密"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,254,232,50,14,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT1,133,77,121,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,133,120,121,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT3,133,162,121,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    CTEXT           "加密文件路径：",IDC_STATIC,59,79,57,8,0,WS_EX_TRANSPARENT
+    CTEXT           "密钥文件路径：",IDC_STATIC,59,122,57,8,0,WS_EX_TRANSPARENT
+    CTEXT           "保存文件路径：",IDC_STATIC,59,165,57,8,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "加密",IDC_BUTTON2,191,232,50,14,0,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_TEST2 DIALOGEX 0, 0, 314, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "解密"
+FONT 12, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "返回",IDC_BUTTON1,257,234,50,14,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT1,150,88,119,14,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,150,124,119,13,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT3,150,157,119,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    CTEXT           "解密文件路径：",IDC_STATIC,59,89,61,13,0,WS_EX_TRANSPARENT
+    CTEXT           "密钥文件路径：",IDC_STATIC,59,124,64,13,0,WS_EX_TRANSPARENT
+    CTEXT           "保存文件路径：",IDC_STATIC,59,157,64,11,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "解密",IDC_BUTTON2,182,234,50,14,0,WS_EX_TRANSPARENT
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,0,0,400,275
+END
+
+IDD_RESULT DIALOGEX 0, 0, 222, 115
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "结果"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "确定",IDC_BUTTON1,152,84,55,17
+    CTEXT           "恭喜，已完成！！！",IDC_STATIC,70,47,86,21
+END
+
+IDD_WRONG DIALOGEX 0, 0, 224, 113
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "错误"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "文件路径错误!!!",IDC_STATIC,65,44,84,32
+    PUSHBUTTON      "确定",IDC_BUTTON1,153,89,57,16
+END
+
+IDD_CORRECT DIALOGEX 0, 0, 218, 122
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "消息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "恭喜，答案正确！！！",IDC_STATIC,53,35,102,16
+    PUSHBUTTON      "确定",IDC_BUTTON1,143,95,50,14
+END
+
+IDD_ERR1 DIALOGEX 0, 0, 248, 120
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "很遗憾，回答错误！！！",IDC_STATIC,69,35,98,22
+    PUSHBUTTON      "确定",IDC_BUTTON1,170,91,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "DES Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "DES"
+            VALUE "LegalCopyright", "版权所有 (C) 2016"
+            VALUE "OriginalFilename", "DES.EXE"
+            VALUE "ProductName", "DES 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DES_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 330
+    END
+
+    IDD_LEARN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 323
+        VERTGUIDE, 60
+        VERTGUIDE, 119
+        VERTGUIDE, 180
+        VERTGUIDE, 239
+        BOTTOMMARGIN, 292
+        HORZGUIDE, 90
+        HORZGUIDE, 114
+        HORZGUIDE, 143
+        HORZGUIDE, 168
+        HORZGUIDE, 198
+        HORZGUIDE, 221
+    END
+
+    IDD_GAME, DIALOG
+    BEGIN
+        VERTGUIDE, 90
+        VERTGUIDE, 150
+        VERTGUIDE, 211
+        VERTGUIDE, 270
+        HORZGUIDE, 83
+        HORZGUIDE, 112
+        HORZGUIDE, 139
+        HORZGUIDE, 168
+    END
+
+    IDD_TEST, DIALOG
+    BEGIN
+        VERTGUIDE, 58
+        VERTGUIDE, 119
+        VERTGUIDE, 180
+        VERTGUIDE, 241
+        HORZGUIDE, 119
+        HORZGUIDE, 143
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 184
+    END
+
+    IDD_DES1, DIALOG
+    BEGIN
+    END
+
+    IDD_DES2, DIALOG
+    BEGIN
+        VERTGUIDE, 192
+        VERTGUIDE, 347
+    END
+
+    IDD_DES3, DIALOG
+    BEGIN
+        VERTGUIDE, 60
+        VERTGUIDE, 300
+    END
+
+    IDD_DES4, DIALOG
+    BEGIN
+        VERTGUIDE, 29
+    END
+
+    IDD_DES5, DIALOG
+    BEGIN
+        VERTGUIDE, 55
+    END
+
+    IDD_DES6, DIALOG
+    BEGIN
+        VERTGUIDE, 48
+        VERTGUIDE, 295
+    END
+
+    IDD_GAME1, DIALOG
+    BEGIN
+        HORZGUIDE, 264
+    END
+
+    IDD_GAME2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 346
+        VERTGUIDE, 17
+        VERTGUIDE, 48
+        VERTGUIDE, 65
+        VERTGUIDE, 77
+        VERTGUIDE, 120
+        VERTGUIDE, 144
+        VERTGUIDE, 239
+        VERTGUIDE, 281
+        VERTGUIDE, 330
+        HORZGUIDE, 210
+        HORZGUIDE, 222
+        HORZGUIDE, 228
+    END
+
+    IDD_GAME3, DIALOG
+    BEGIN
+        VERTGUIDE, 30
+        VERTGUIDE, 60
+        VERTGUIDE, 90
+        VERTGUIDE, 120
+        VERTGUIDE, 150
+        VERTGUIDE, 180
+        VERTGUIDE, 210
+        VERTGUIDE, 239
+        VERTGUIDE, 270
+        VERTGUIDE, 300
+        HORZGUIDE, 60
+        HORZGUIDE, 77
+        HORZGUIDE, 90
+        HORZGUIDE, 109
+    END
+
+    IDD_GAME4, DIALOG
+    BEGIN
+    END
+
+    IDD_TEST1, DIALOG
+    BEGIN
+        VERTGUIDE, 59
+        VERTGUIDE, 120
+        VERTGUIDE, 149
+        VERTGUIDE, 270
+        HORZGUIDE, 77
+        HORZGUIDE, 88
+        HORZGUIDE, 120
+        HORZGUIDE, 132
+        HORZGUIDE, 162
+        HORZGUIDE, 173
+    END
+
+    IDD_TEST2, DIALOG
+    BEGIN
+        VERTGUIDE, 59
+        VERTGUIDE, 123
+        VERTGUIDE, 150
+        VERTGUIDE, 269
+        HORZGUIDE, 60
+        HORZGUIDE, 73
+        HORZGUIDE, 95
+        HORZGUIDE, 108
+        HORZGUIDE, 128
+        HORZGUIDE, 139
+    END
+
+    IDD_RESULT, DIALOG
+    BEGIN
+    END
+
+    IDD_WRONG, DIALOG
+    BEGIN
+    END
+
+    IDD_CORRECT, DIALOG
+    BEGIN
+    END
+
+    IDD_ERR1, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP3             BITMAP                  "res\\main.bmp"
+IDB_BITMAP4             BITMAP                  "res\\main2.bmp"
+IDB_BITMAP5             BITMAP                  "res\\main3.bmp"
+IDB_BITMAP6             BITMAP                  "res\\des.bmp"
+IDB_BITMAP7             BITMAP                  "res\\p1.bmp"
+IDB_BITMAP8             BITMAP                  "res\\p2.bmp"
+IDB_BITMAP9             BITMAP                  "res\\m1.bmp"
+IDB_BITMAP10            BITMAP                  "res\\m2.bmp"
+IDB_BITMAP11            BITMAP                  "res\\m3.bmp"
+IDB_BITMAP12            BITMAP                  "res\\s1.bmp"
+IDB_BITMAP13            BITMAP                  "res\\s2.bmp"
+IDB_BITMAP14            BITMAP                  "res\\s3.bmp"
+IDB_BITMAP15            BITMAP                  "res\\z1.bmp"
+IDB_BITMAP16            BITMAP                  "res\\z2.bmp"
+IDB_BITMAP17            BITMAP                  "res\\g2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 DES(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DES.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
